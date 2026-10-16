@@ -2,20 +2,19 @@
 A fully functional SQL-based backend system to support library operations using structured data and SQL queries. This project features a Python-based Streamlit frontend connected to a MySQL database to help librarians manage books, users, and transactions efficiently.
 
 ## ✨ Features
-Book Management: Add new books to the inventory and view current available copies.
+- Book Management: Add new books to the inventory and view current available copies.
 
-Member Management: Register new members with active/inactive status tracking.
+- Member Management: Register new members with active/inactive status tracking.
 
+- Issue & Return Processing: Secure transaction handling that updates book_issues and inventory simultaneously, with automatic rollback protection if an error occurs.
 
-Issue & Return Processing: Secure transaction handling that updates book_issues and inventory simultaneously, with automatic rollback protection if an error occurs.
+- Library Analytics & Reports:
 
-Library Analytics & Reports:
+    . Track which member has borrowed which book.
 
-Track which member has borrowed which book.
+    . Identify overdue books automatically.
 
-Identify overdue books automatically.
-
-View the top 5 most borrowed books via interactive charts.
+    . View the top 5 most borrowed books via interactive charts.
 
 ## 🛠️ Tech Stack
 - Frontend: Streamlit (Python)
