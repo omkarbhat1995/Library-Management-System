@@ -1,4 +1,7 @@
 # 📚 Library Management System
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+
 A fully functional SQL-based backend system to support library operations using structured data and SQL queries. This project features a Python-based Streamlit frontend connected to a MySQL database to help librarians manage books, users, and transactions efficiently.
 
 ## ✨ Features
