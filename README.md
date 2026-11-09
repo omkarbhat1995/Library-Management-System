@@ -14,11 +14,11 @@ A full-stack, SQL-backed library management system designed to track inventory, 
 
 - Library Analytics & Reports:
 
-    . Track which member has borrowed which book.
+    1. Track which member has borrowed which book.
 
-    . Identify overdue books automatically.
+    2. Identify overdue books automatically.
 
-    . View the top 5 most borrowed books via interactive charts.
+    3. View the top 5 most borrowed books via interactive charts.
 
 
 
