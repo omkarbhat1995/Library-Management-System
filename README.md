@@ -2,7 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 
-A fully functional SQL-based backend system to support library operations using structured data and SQL queries. This project features a Python-based Streamlit frontend connected to a MySQL database to help librarians manage books, users, and transactions efficiently.
+A full-stack, SQL-backed library management system designed to track inventory, manage memberships, and handle daily book transactions. This application bridges a robust MySQL relational database with an interactive Streamlit frontend, showcasing end-to-end software engineering, transactional data integrity, and real-time analytics.
+
 
 ## ✨ Features
 - Book Management: Add new books to the inventory and view current available copies.
@@ -18,6 +19,28 @@ A fully functional SQL-based backend system to support library operations using 
     . Identify overdue books automatically.
 
     . View the top 5 most borrowed books via interactive charts.
+
+
+
+## 🔐 Backend & Data Engineering
+- Relational Data Modeling: Normalized database schema separating books, members, and transaction logs.
+
+- ACID-Compliant Transactions: Secure issue and return processing that simultaneously updates book_issues and inventory counts. Features automatic rollback protection to prevent data corruption during failed transactions.
+
+- State Management: Active/inactive status tracking for members and dynamic availability tracking for the book inventory.
+
+## 📊 Frontend & Analytics
+- Interactive Dashboard: Built entirely in Python using Streamlit for a clean, responsive user interface.
+
+- Real-Time Reporting:
+
+    1. Automatically identifies and flags overdue books.
+
+    2. Tracks borrowing history by member.
+
+    3. Visualizes the top 5 most borrowed books using interactive data charts.
+
+-Seamless Operations: Intuitive forms for librarians to add inventory, register members, and process returns without writing SQL.
 
 ## 🛠️ Tech Stack
 - Frontend: Streamlit (Python)
